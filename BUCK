@@ -7,6 +7,9 @@ cxx_library(
   srcs = [
     'hello.cpp',
   ],
+  licenses = [
+    'LICENSE',
+  ], 
   visibility = [
     'PUBLIC',
   ],
